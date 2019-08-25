@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>大威的博客 </title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="generator" content="Hugo 0.57.2" />
+    
+    
+      <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+    
+
+    
+    
+      <link href="/dist/css/app.d98f2eb6bcd1eaedb7edf166bd16af26.css" rel="stylesheet">
+    
+
+    
+
+    
+      
+    
+
+    
+      <link href="http://example.org/posts/index.xml" rel="alternate" type="application/rss+xml" title="大威的博客" />
+      <link href="http://example.org/posts/index.xml" rel="feed" type="application/rss+xml" title="大威的博客" />
+    
+
+    <meta property="og:title" content="Posts" />
+<meta property="og:description" content="" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="http://example.org/posts/" />
+
+<meta property="og:updated_time" content="2019-08-25T00:12:49+08:00" />
+<meta itemprop="name" content="Posts">
+<meta itemprop="description" content="">
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Posts"/>
+<meta name="twitter:description" content=""/>
+
+  </head>
+
+  <body class="ma0 avenir bg-near-white">
+
+    
+
+  <header>
+    <div class="pb3-m pb6-l bg-black">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <a href="http://example.org/" class="f3 fw2 hover-white no-underline white-90 dib">
+      大威的博客
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+      
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+  </div>
+</nav>
+
+      <div class="tc-l pv3 ph3 ph4-ns">
+        <h1 class="f2 f-subheadline-l fw2 light-silver mb0 lh-title">
+          Posts
+        </h1>
+        
+      </div>
+    </div>
+  </header>
+
+
+    <main class="pb7" role="main">
+      
+  <article class="pa3 pa4-ns nested-copy-line-height nested-img">
+    <section class="cf ph3 ph5-l pv3 pv4-l f4 tc-l center measure-wide lh-copy mid-gray"></section>
+    <section class="flex-ns flex-wrap justify-around mt5">
+      
+        <div class="relative w-100 w-30-l mb4 bg-white"><div class="relative w-100 mb4 bg-white nested-copy-line-height">
+  <div class="bg-white mb3 pa4 gray overflow-hidden">
+    <span class="f6 db">Posts</span>
+    <h1 class="f3 near-black">
+      <a href="/posts/%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/" class="link black dim">
+        使用HUGO创建个人博客
+      </a>
+    </h1>
+    <div class="nested-links f5 lh-copy nested-copy-line-height">
+      为什么使用HUGO？ HUGO由GO语言编写，是一个静态网站生成器。使用起来非常简单，像我这样没有编程基础的人，只需要靠抄代码，就可以生成一个很好（zhuang）用（bi）的博客。
+为什么我建议你搭建个人博客？  自我反思这段时间学习的技术，利用输出让自己精炼知识 写作是和自己的沟通，让自己能看到沉淀 求职面试的加分项，能让面试官看到你的潜力  搭建步骤 和大家啰嗦了那么多，赶紧上手吧~
+1.安装  HUGO官网（全英文）：https://gohugo.io/ 中文版文档：https://www.gohugo.org/  hugo有两种安装方式，一种是命令行安装，一种是二进制安装。
+第一种安装方式：如果你是Mac系统，直接使用brew命令行安装即可。
+$ brew install hugo
+安装完毕后，检测是否安装成功：
+$ hugo version
+第二种安装方式：二进制安装（Windows用户推荐使用）
+到 Hugo Releases 下载对应的操作系统版本的Hugo二进制文件（hugo或者hugo.exe）
+2.一行命令生成HUGO站点 建议新建一个文件夹，专门用于储存hugo博客的数据。比新建在/Desktop/my-first-blog路径下。
+$ hugo new site /Desktop/my-first-blog
+这样就可以生成一个博客站点了。
+3.给你的站点添加主题 hugo博客创建的时候是没有主题的，用以下代码添加主题：
+首先初始化git目录：
+$ git init
+下载官方ananke主题到根hugo目录：
+$ git submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/ananke
+把主题加载到config文件中，这样才能生效：
+$ echo 'theme = &quot;ananke&quot;' &gt;&gt; config.toml
+4.创建和编辑第一篇博客文章 在hugo根目录运行以下命令：
+$ hugo new posts/my-first-post.md
+就可以创建第一篇文章了，my-first-post是文章标题，可以自由更改。这篇文章会生成到content目录下，是一个Markdown文件。
+接着你会在文章开头看到以下内容：
+--- title: &quot;My First Post&quot; date: 2019-03-26T08:47:11+01:00 draft: true --- 正文内容  建议大家把文章放到post目录，方便生成之后聚合页面。
+    </div>
+  </div>
+</div>
+</div>
+      
+    </section>
+
+</article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="http://example.org/" >
+    &copy; 2019 大威的博客
+  </a>
+    <div>
+
+
+
+
+
+
+
+
+
+
+</div>
+  </div>
+</footer>
+
+    
+
+  <script src="/dist/js/app.3fc0f988d21662902933.js"></script>
+
+
+  </body>
+</html>
