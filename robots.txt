@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: http://waynefu2020.github.io/sitemap.xml

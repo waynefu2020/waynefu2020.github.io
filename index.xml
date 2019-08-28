@@ -1,46 +1,48 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>大威的博客</title>
-    <link>http://example.org/</link>
-    <description>Recent content on 大威的博客</description>
+    <title>大威的代码小屋</title>
+    <link>http://waynefu2020.github.io/</link>
+    <description>Recent content on 大威的代码小屋</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh-Hans</language>
-    <lastBuildDate>Sun, 25 Aug 2019 00:12:49 +0800</lastBuildDate>
+    <language>en</language>
+    <lastBuildDate>Sun, 20 Aug 2017 21:38:52 +0800</lastBuildDate>
     
-	<atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="http://waynefu2020.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>使用HUGO创建个人博客</title>
-      <link>http://example.org/posts/%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</link>
-      <pubDate>Sun, 25 Aug 2019 00:12:49 +0800</pubDate>
+      <title>About</title>
+      <link>http://waynefu2020.github.io/about/</link>
+      <pubDate>Sun, 20 Aug 2017 21:38:52 +0800</pubDate>
       
-      <guid>http://example.org/posts/%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</guid>
-      <description>为什么使用HUGO？ HUGO由GO语言编写，是一个静态网站生成器。使用起来非常简单，像我这样没有编程基础的人，只需要靠抄代码，就可以生成一个很好（zhuang）用（bi）的博客。
-为什么我建议你搭建个人博客？  自我反思这段时间学习的技术，利用输出让自己精炼知识 写作是和自己的沟通，让自己能看到沉淀 求职面试的加分项，能让面试官看到你的潜力  搭建步骤 和大家啰嗦了那么多，赶紧上手吧~
-1.安装  HUGO官网（全英文）：https://gohugo.io/ 中文版文档：https://www.gohugo.org/  hugo有两种安装方式，一种是命令行安装，一种是二进制安装。
-第一种安装方式：如果你是Mac系统，直接使用brew命令行安装即可。
-$ brew install hugo
-安装完毕后，检测是否安装成功：
-$ hugo version
-第二种安装方式：二进制安装（Windows用户推荐使用）
-到 Hugo Releases 下载对应的操作系统版本的Hugo二进制文件（hugo或者hugo.exe）
-2.一行命令生成HUGO站点 建议新建一个文件夹，专门用于储存hugo博客的数据。比新建在/Desktop/my-first-blog路径下。
-$ hugo new site /Desktop/my-first-blog
-这样就可以生成一个博客站点了。
-3.给你的站点添加主题 hugo博客创建的时候是没有主题的，用以下代码添加主题：
-首先初始化git目录：
-$ git init
-下载官方ananke主题到根hugo目录：
-$ git submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/ananke
-把主题加载到config文件中，这样才能生效：
-$ echo &#39;theme = &amp;quot;ananke&amp;quot;&#39; &amp;gt;&amp;gt; config.toml
-4.创建和编辑第一篇博客文章 在hugo根目录运行以下命令：
-$ hugo new posts/my-first-post.md
-就可以创建第一篇文章了，my-first-post是文章标题，可以自由更改。这篇文章会生成到content目录下，是一个Markdown文件。
-接着你会在文章开头看到以下内容：
---- title: &amp;quot;My First Post&amp;quot; date: 2019-03-26T08:47:11+01:00 draft: true --- 正文内容  建议大家把文章放到post目录，方便生成之后聚合页面。</description>
+      <guid>http://waynefu2020.github.io/about/</guid>
+      
+        <description>&lt;p&gt;Hugo is a static site engine written in Go.&lt;/p&gt;
+
+&lt;p&gt;It makes use of a variety of open source projects including:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/spf13/cobra&#34;&gt;Cobra&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/spf13/viper&#34;&gt;Viper&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/spf13/jWalterWeatherman&#34;&gt;J Walter Weatherman&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/spf13/cast&#34;&gt;Cast&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Learn more and contribute on &lt;a href=&#34;https://github.com/gohugoio&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+</description>
+      
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://waynefu2020.github.io/post/html%E5%B8%B8%E7%94%A8%E6%A0%87%E7%AD%BE/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://waynefu2020.github.io/post/html%E5%B8%B8%E7%94%A8%E6%A0%87%E7%AD%BE/</guid>
+      
+        <description></description>
+      
     </item>
     
   </channel>
